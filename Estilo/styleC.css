@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'panda';
+    src: url(../Midia/pandastylepanda1.ttf);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(122, 150, 75);
+}
+
+div#panda{
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+    min-width: 400px;
+    max-width: 600px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
+}
+.countainer{
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    height: 150px;
+    margin: auto;
+    margin-top: 20px;
+    min-width: 400px;
+    max-width: 580px;
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
+}
+div#n1{
+    margin: auto
+}
+div#n2{
+    margin: auto;
+}
+input{
+    width: 200px;
+}
+input#conf{
+    background-color: rgb(50, 61, 30);
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 40%;
+}

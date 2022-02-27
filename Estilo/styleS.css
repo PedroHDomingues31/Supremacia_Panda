@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'panda';
+    src: url(../Midia/pandastylepanda1.ttf);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(122, 150, 75);
+}
